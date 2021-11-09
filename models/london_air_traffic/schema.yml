@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: london_air_traffic
+    description: 'A free database available in BigQuery on London air traffic'
+    database: alex-olivier
+    schema: flighttracker_prod
+    tables:
+      - name: aircraft_stream

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dbt_source_test
+    description: 'A test database on an old test project created by me'
+    project: api-project-743986857959
+    dataset: dbt_source_test
+    tables:
+      - name: test_table

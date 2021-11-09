@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: bigquery-public-data
+    description: 'A sample database provided by BigQuery on COV-19 in Italy. This database gets updated daily.'
+    database: bigquery-public-data
+    schema: covid19_italy_eu
+    tables:
+      - name: data_by_region
+      - name: national_trends
+      - name: data_by_province
